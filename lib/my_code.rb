@@ -12,7 +12,7 @@ def map(source_array)
 end
 
 def reduce(source_array, starting value = 0)
-  total = 0
+  total = starting value
   count = 0
   
   while count < source_array.length do
