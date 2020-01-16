@@ -12,9 +12,12 @@ def map(source_array)
 end
 
 def reduce(source_array, starting value = nil)
-  
-  total = starting value
-  count = 0
+  if starting_value
+    total = starting value
+    count = 0
+  else
+    total = 
+  end
   
   while count < source_array.length do
     total += yield(source_array[count])
