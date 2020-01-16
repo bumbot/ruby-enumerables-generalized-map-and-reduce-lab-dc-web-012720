@@ -11,7 +11,7 @@ def map(source_array)
   new_array
 end
 
-def reduce(source_array, starting value = 0)
+def reduce(source_array, starting value = nil)
   total = starting value
   count = 0
   
