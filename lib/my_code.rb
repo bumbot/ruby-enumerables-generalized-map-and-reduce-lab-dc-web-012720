@@ -21,7 +21,7 @@ def reduce(source_array, starting_value = nil)
   end
   
   while count < source_array.length do
-    total += yield(source_array[count])
+    total = yield(sum, source_array[count])
     count += 1
   end
   total
